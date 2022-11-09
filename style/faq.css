@@ -1,0 +1,646 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+main {
+  background: #ffffff;
+  width: 100%; }
+  main .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 1rem;
+    height: 7rem; }
+    main .header nav .label-menu, main .header nav .checkbox {
+      display: none; }
+    main .header nav .menu {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+      text-decoration: none; }
+      main .header nav .menu a {
+        text-decoration: none;
+        color: #000000;
+        letter-spacing: 5px;
+        font-size: 20px;
+        font-family: 'Hind Madurai', sans-serif; }
+      main .header nav .menu a:hover {
+        color: #800000;
+        transition: 0.15s; }
+  main .welcoming__text {
+    display: flex;
+    width: 100%;
+    background: url("./images/ask.png");
+    padding: 5px;
+    margin-top: 0px;
+    line-height: 1.1; }
+    main .welcoming__text .title1 {
+      font-size: 80px;
+      margin-left: 400px;
+      margin-top: 70px;
+      margin-bottom: 70px;
+      margin-right: 70px;
+      text-align: right;
+      width: 100%;
+      font-family: 'Hind Madurai', sans-serif;
+      letter-spacing: 6px;
+      color: white; }
+    main .welcoming__text .title1 {
+      text-shadow: 1px 6px 28px #3f3f3f; }
+  main .main__text .title2 {
+    margin-top: 45px;
+    margin-left: 60px;
+    text-align: justify;
+    width: 80%;
+    line-height: 1.6;
+    color: #5c5c5c;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px; }
+  main .main__text .text1 {
+    margin-top: -15px;
+    margin-left: 105px;
+    text-align: justify;
+    width: 80%;
+    line-height: 1.6;
+    color: #000000;
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif; }
+  main .hr1 {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #a1a04c, transparent);
+    margin-top: 5px; }
+  main .question__box1 .accessibility .h3__t1 {
+    font-size: 70px;
+    font-family: 'Hind Madurai', sans-serif;
+    color: #7e1414;
+    margin-left: 80px;
+    margin-top: 45px;
+    letter-spacing: 10px; }
+  main .question__box1 .accessibility .box1 {
+    background: #fafafa;
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 6px #a7a7a7;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: justify; }
+    main .question__box1 .accessibility .box1 .question1 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold; }
+    main .question__box1 .accessibility .box1 .answer1 {
+      line-height: 1.6; }
+  main .question__box1 .accessibility .box2 {
+    background: #fafafa;
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 35px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 6px #a7a7a7;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify; }
+    main .question__box1 .accessibility .box2 .question2 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold; }
+    main .question__box1 .accessibility .box2 .answer2 {
+      line-height: 1.6; }
+  main .question__box1 .question__box2 .h3__t2 {
+    font-size: 70px;
+    font-family: 'Hind Madurai', sans-serif;
+    color: #1a6aa0;
+    margin-left: 80px;
+    margin-top: 45px;
+    letter-spacing: 7px; }
+  main .question__box1 .question__box2 .box3 {
+    background: #fafafa;
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 6px #a7a7a7;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify; }
+    main .question__box1 .question__box2 .box3 .question3 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold; }
+    main .question__box1 .question__box2 .box3 .answer3 {
+      line-height: 1.6; }
+  main .question__box1 .question__box2 .box4 {
+    background: #fafafa;
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 35px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 6px #a7a7a7;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify; }
+    main .question__box1 .question__box2 .box4 .question4 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold; }
+    main .question__box1 .question__box2 .box4 .answer4 {
+      line-height: 1.6; }
+  main .question__box1 .question__box2 .box5 {
+    background: #fafafa;
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 35px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 6px #a7a7a7;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify; }
+    main .question__box1 .question__box2 .box5 .question5 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold; }
+    main .question__box1 .question__box2 .box5 .answer5 {
+      line-height: 1.6; }
+  main .question__box1 .question__box2 .box6 {
+    background: #fafafa;
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 35px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 6px #a7a7a7;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify; }
+    main .question__box1 .question__box2 .box6 .question6 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold; }
+    main .question__box1 .question__box2 .box6 .answer6 {
+      line-height: 1.6; }
+  main .question__box1 .question__box3 .h3__t3 {
+    font-size: 70px;
+    font-family: 'Hind Madurai', sans-serif;
+    color: #a01a54;
+    margin-left: 80px;
+    margin-top: 45px;
+    letter-spacing: 7px; }
+  main .question__box1 .question__box3 .box7 {
+    background: #fafafa;
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 6px #a7a7a7;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify; }
+    main .question__box1 .question__box3 .box7 .question7 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold; }
+    main .question__box1 .question__box3 .box7 .answer7 {
+      line-height: 1.6; }
+  main .question__box1 .question__box3 .box8 {
+    background: #fafafa;
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 35px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 6px #a7a7a7;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify; }
+    main .question__box1 .question__box3 .box8 .question8 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold; }
+    main .question__box1 .question__box3 .box8 .answer8 {
+      line-height: 1.6; }
+  main .question__box1 .question__box3 .box9 {
+    background: #fafafa;
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 35px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 6px #a7a7a7;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify; }
+    main .question__box1 .question__box3 .box9 .question9 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold; }
+    main .question__box1 .question__box3 .box9 .answer9 {
+      line-height: 1.6; }
+  main footer {
+    position: relative;
+    justify-content: space-evenly;
+    background: #cacaca;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 700;
+    color: #000000;
+    font-family: 'Hind Madurai', sans-serif;
+    gap: 50px;
+    margin-top: 75px; }
+    main footer .navUl {
+      width: 500px;
+      position: relative;
+      left: 65px;
+      top: 50px; }
+      main footer .navUl #menuFooter {
+        gap: 15px;
+        margin-left: -40px; }
+        main footer .navUl #menuFooter .listaFooter {
+          display: flex;
+          gap: 30px;
+          position: relative;
+          top: -40px;
+          margin-left: -20px;
+          list-style: none;
+          text-align: center; }
+          main footer .navUl #menuFooter .listaFooter .links__footer {
+            transition: 0.15s ease-in;
+            text-decoration: none;
+            color: #000000;
+            font-size: 18px;
+            letter-spacing: 0; }
+          main footer .navUl #menuFooter .listaFooter .links__footer:hover {
+            color: #7e1414;
+            cursor: pointer; }
+    main footer .div__footer {
+      width: 500px; }
+      main footer .div__footer .pFooter {
+        line-height: 1.4;
+        margin-top: 20px; }
+
+@media screen and (max-width: 720px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  main {
+    background: #ffffff;
+    width: 100%; }
+    main .header nav .label-menu {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: #000000;
+      padding-block: 1rem;
+      cursor: pointer; }
+      main .header nav .label-menu .hamburguer {
+        border-top: 0.125rem solid;
+        width: 1.25rem; }
+      main .header nav .label-menu .hamburguer::before, main .header nav .label-menu .hamburguer::after {
+        content: "";
+        display: block;
+        width: 1.25rem;
+        height: 0.125rem;
+        background: currentColor;
+        margin-top: 0.3125rem;
+        position: relative;
+        transition: 0.3s; }
+    main .header nav .menu {
+      display: block;
+      position: absolute;
+      top: 7rem;
+      text-align: center;
+      background: #ffffff;
+      width: 100%;
+      left: 0;
+      height: 0;
+      z-index: 1;
+      transition: 0.5s;
+      visibility: hidden;
+      overflow-y: hidden; }
+      main .header nav .menu ul li a {
+        padding: 0.5rem 0;
+        margin-inline: 1rem;
+        border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.16);
+        border-radius: 0; }
+    main .header nav .checkbox:checked ~ .menu {
+      height: calc(110vh - 6rem);
+      visibility: visible;
+      overflow-y: auto; }
+    main .header nav .checkbox:checked ~ .label-menu .hamburguer {
+      border-top-color: transparent; }
+    main .header nav .checkbox:checked ~ .label-menu .hamburguer::before {
+      transform: rotate(135deg); }
+    main .header nav .checkbox:checked ~ .label-menu .hamburguer::after {
+      transform: rotate(-135deg);
+      top: -0.4375rem; }
+    main .welcoming__text {
+      display: flex;
+      width: 100%;
+      background: url("./images/ask.png");
+      padding: 5px;
+      margin-top: 5px;
+      line-height: 1.1; }
+      main .welcoming__text .title1 {
+        font-size: 35px;
+        margin-left: 75px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-right: 25px;
+        text-align: right;
+        width: 100%;
+        font-family: 'Hind Madurai', sans-serif;
+        letter-spacing: 4.5px;
+        color: white; }
+      main .welcoming__text .title1 {
+        text-shadow: 1px 6px 28px black; }
+    main .main__text .title2 {
+      margin-top: 25px;
+      margin-left: 25px;
+      text-align: left;
+      width: 90%;
+      line-height: 1.4;
+      color: #5c5c5c;
+      padding: 20px;
+      background: #ffffff;
+      font-family: 'Raleway', sans-serif;
+      font-size: 25px; }
+    main .main__text .text1 {
+      margin-top: -10px;
+      margin-left: 35px;
+      text-align: justify;
+      width: 85%;
+      line-height: 1.8;
+      color: #000000;
+      font-size: 18px;
+      padding: 10px;
+      background: #ffffff;
+      font-family: 'Raleway', sans-serif; }
+    main .hr1 {
+      border: 0;
+      height: 2px;
+      background-image: linear-gradient(to right, transparent, #a1a04c, transparent);
+      margin-top: 10px; }
+    main .question__box1 .accessibility .h3__t1 {
+      font-size: 40px;
+      font-family: 'Hind Madurai', sans-serif;
+      color: #7e1414;
+      margin-left: 45px;
+      margin-top: 45px;
+      letter-spacing: 7px; }
+    main .question__box1 .accessibility .box1 {
+      background: #fafafa;
+      width: 85%;
+      position: relative;
+      margin: 0 auto;
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 15px;
+      box-shadow: 1px 2px 6px #a7a7a7;
+      font-family: 'Raleway', sans-serif;
+      font-size: 18px;
+      color: #000000;
+      text-align: left;
+      line-height: 1.6; }
+      main .question__box1 .accessibility .box1 .question1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold; }
+      main .question__box1 .accessibility .box1 .answer1 {
+        line-height: 1.6; }
+    main .question__box1 .accessibility .box2 {
+      background: #fafafa;
+      width: 85%;
+      position: relative;
+      margin: 0 auto;
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 15px;
+      box-shadow: 1px 2px 6px #a7a7a7;
+      font-family: 'Raleway', sans-serif;
+      font-size: 18px;
+      color: #000000;
+      text-align: left;
+      line-height: 1.6; }
+      main .question__box1 .accessibility .box2 .question2 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold; }
+      main .question__box1 .accessibility .box2 .answer2 {
+        line-height: 1.6; }
+    main .question__box1 .question__box2 .h3__t2 {
+      font-size: 40px;
+      font-family: 'Hind Madurai', sans-serif;
+      color: #1a6aa0;
+      margin-left: 45px;
+      margin-top: 45px;
+      letter-spacing: 3px;
+      width: 85%; }
+    main .question__box1 .question__box2 .box3 {
+      background: #fafafa;
+      width: 85%;
+      position: relative;
+      margin: 0 auto;
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 15px;
+      box-shadow: 1px 2px 6px #a7a7a7;
+      font-family: 'Raleway', sans-serif;
+      font-size: 18px;
+      color: #000000;
+      text-align: left;
+      line-height: 1.6; }
+      main .question__box1 .question__box2 .box3 .question3 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold; }
+      main .question__box1 .question__box2 .box3 .answer3 {
+        line-height: 1.6; }
+    main .question__box1 .question__box2 .box4 {
+      background: #fafafa;
+      width: 85%;
+      position: relative;
+      margin: 0 auto;
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 15px;
+      box-shadow: 1px 2px 6px #a7a7a7;
+      font-family: 'Raleway', sans-serif;
+      font-size: 18px;
+      color: #000000;
+      text-align: left;
+      line-height: 1.6; }
+      main .question__box1 .question__box2 .box4 .question4 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold; }
+      main .question__box1 .question__box2 .box4 .answer4 {
+        line-height: 1.6; }
+    main .question__box1 .question__box2 .box5 {
+      background: #fafafa;
+      width: 85%;
+      position: relative;
+      margin: 0 auto;
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 15px;
+      box-shadow: 1px 2px 6px #a7a7a7;
+      font-family: 'Raleway', sans-serif;
+      font-size: 18px;
+      color: #000000;
+      text-align: left;
+      line-height: 1.6; }
+      main .question__box1 .question__box2 .box5 .question5 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold; }
+      main .question__box1 .question__box2 .box5 .answer5 {
+        line-height: 1.6; }
+    main .question__box1 .question__box2 .box6 {
+      background: #fafafa;
+      width: 85%;
+      position: relative;
+      margin: 0 auto;
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 15px;
+      box-shadow: 1px 2px 6px #a7a7a7;
+      font-family: 'Raleway', sans-serif;
+      font-size: 18px;
+      color: #000000;
+      text-align: left;
+      line-height: 1.6; }
+      main .question__box1 .question__box2 .box6 .question6 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold; }
+      main .question__box1 .question__box2 .box6 .answer6 {
+        line-height: 1.6; }
+    main .question__box1 .question__box3 .h3__t3 {
+      font-size: 40px;
+      font-family: 'Hind Madurai', sans-serif;
+      color: #a01a54;
+      margin-left: 45px;
+      margin-top: 45px;
+      letter-spacing: 3px;
+      width: 85%; }
+    main .question__box1 .question__box3 .box7 {
+      background: #fafafa;
+      width: 85%;
+      position: relative;
+      margin: 0 auto;
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 15px;
+      box-shadow: 1px 2px 6px #a7a7a7;
+      font-family: 'Raleway', sans-serif;
+      font-size: 18px;
+      color: #000000;
+      text-align: left;
+      line-height: 1.6; }
+      main .question__box1 .question__box3 .box7 .question7 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold; }
+      main .question__box1 .question__box3 .box7 .answer7 {
+        line-height: 1.6; }
+    main .question__box1 .question__box3 .box8 {
+      background: #fafafa;
+      width: 85%;
+      position: relative;
+      margin: 0 auto;
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 15px;
+      box-shadow: 1px 2px 6px #a7a7a7;
+      font-family: 'Raleway', sans-serif;
+      font-size: 18px;
+      color: #000000;
+      text-align: left;
+      line-height: 1.6; }
+      main .question__box1 .question__box3 .box8 .question8 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold; }
+      main .question__box1 .question__box3 .box8 .answer8 {
+        line-height: 1.6; }
+    main .question__box1 .question__box3 .box9 {
+      background: #fafafa;
+      width: 85%;
+      position: relative;
+      margin: 0 auto;
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 15px;
+      box-shadow: 1px 2px 6px #a7a7a7;
+      font-family: 'Raleway', sans-serif;
+      font-size: 18px;
+      color: #000000;
+      text-align: left;
+      line-height: 1.6; }
+      main .question__box1 .question__box3 .box9 .question9 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold; }
+      main .question__box1 .question__box3 .box9 .answer9 {
+        line-height: 1.6; }
+    main footer {
+      position: relative;
+      justify-content: space-around;
+      background: #cacaca;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+      font-weight: 700;
+      color: #000000;
+      font-family: 'Hind Madurai', sans-serif;
+      gap: 30px;
+      margin-top: 75px; }
+      main footer .navUl {
+        width: 500px;
+        position: relative;
+        left: 85px;
+        top: 50px; }
+        main footer .navUl #menuFooter {
+          gap: 15px;
+          margin-left: -75px; }
+          main footer .navUl #menuFooter .listaFooter {
+            display: block;
+            position: absolute;
+            margin-top: -65px;
+            list-style: none;
+            text-align: left;
+            line-height: 2.3; }
+            main footer .navUl #menuFooter .listaFooter .links__footer {
+              transition: 0.15s ease-in;
+              font-size: 14px; }
+            main footer .navUl #menuFooter .listaFooter .links__footer:hover {
+              color: #7e1414;
+              cursor: pointer; }
+      main footer .div__footer .pFooter {
+        line-height: 1.4;
+        width: 100%;
+        font-size: 14px;
+        text-align: right;
+        margin-left: -20px;
+        margin-top: 30px; } }
