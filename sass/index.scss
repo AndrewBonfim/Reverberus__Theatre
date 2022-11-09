@@ -99,6 +99,26 @@ body {
             }
         }
 
+        .title2 {
+            margin-top: 45px;
+            margin-left: 60px;
+            text-align: justify;
+            width: 80%;
+            line-height: 1.6;
+            color: rgb(92, 92, 92);
+            padding: 20px;
+            background: #ffffff;
+            font-family: 'Raleway', sans-serif;
+            font-size: 40px;
+        }
+
+        .hr {
+            border: 0;
+            height: 2px;
+            background-image: linear-gradient(to right, transparent, #a1a04c, transparent);
+            margin-top: 25px;
+        }
+
         .whats__on {
             font-size: 70px;
             font-family: 'Hind Madurai', sans-serif;
@@ -1060,7 +1080,7 @@ body {
                 font-size: 25px;
             }
 
-            .hr1 {
+            .hr {
                 border: 0;
                 height: 2px;
                 background-image: linear-gradient(to right, transparent, #a1a04c, transparent);
