@@ -1044,21 +1044,45 @@ body {
                 color: #7e1414;
                 margin-left: 45px;
                 margin-top: 35px;
-                letter-spacing: 7.5px;
+                letter-spacing: 3.5px;
+            }
+
+            .title2 {
+                margin-top: 25px;
+                margin-left: 25px;
+                text-align: left;
+                width: 94%;
+                line-height: 1.4;
+                color: rgb(92, 92, 92);
+                padding: 20px;
+                background: #ffffff;
+                font-family: 'Raleway', sans-serif;
+                font-size: 25px;
+            }
+
+            .hr1 {
+                border: 0;
+                height: 2px;
+                background-image: linear-gradient(to right, transparent, #a1a04c, transparent);
+                margin-top: -15px;
+                margin-bottom: 40px;
             }
     
             .marketing1 {
                 display: block;
                 margin-top: 20px;
-                margin-left: 22.5px;
+                margin: 0 auto;
                 width: 100%;
     
                 .poster1 {
                     width: 400px;
-                    height: 400px;
+                    height: fit-content;
+                    width: 100%;
                 }
     
                 .text__poster1 {
+                    margin-left: 15px;
+                    width: 100%;
     
                     .titleP1 {
                         font-size: 45px;
@@ -1078,15 +1102,13 @@ body {
                         font-weight: bold;
                         margin-top: 15px;
                         line-height: 1.4;
-                        width: 80%;
-                        text-align: justify;
+                        text-align: left;
                         margin-left: 25px;
                     }
                     
                     .description1 {
                         font-family: 'Raleway', sans-serif;
                         font-size: 18px;
-                        width: 80%;
                         text-align: left;
                         line-height: 1.8;
                         margin-left: 0px;
@@ -1111,12 +1133,12 @@ body {
                             margin-top: 25px;
                             cursor: pointer;
                             width: 80%;
-                        }
-                        
-                        .btn1:hover {
-                            background: #9b9b9b;
-                            transition: 0.30s;
-                            transform: scale(1.05);
+
+                            &:hover {
+                                background: #9b9b9b;
+                                transition: 0.30s;
+                                transform: scale(1.05);
+                            }
                         }
                         
                         .btn2 {
@@ -1131,12 +1153,12 @@ body {
                             margin-top: 10px;
                             cursor: pointer;
                             width: 80%;
-                        }
-                        
-                        .btn2:hover {
-                            background: #5ec466;
-                            transition: 0.30s;
-                            transform: scale(1.05);
+
+                            &:hover {
+                                background: #5ec466;
+                                transition: 0.30s;
+                                transform: scale(1.05);
+                            }
                         }
                     }
                 }
@@ -1152,18 +1174,21 @@ body {
             .marketing2 {
                 display: block;
                 margin-top: 20px;
-                margin-left: 22.5px;
+                margin: 0 auto;
                 width: 100%;
     
                 .poster2 {
                     width: 400px;
-                    height: 400px;
+                    height: fit-content;
+                    width: 100%;
                 }
     
                 .text__poster2 {
+                    margin-left: 15px;
+                    width: 100%;
     
                     .titleP2 {
-                        font-size: 40px;
+                        font-size: 35px;
                         font-family: 'Raleway', sans-serif;
                         font-weight: bold;
                         margin-top: 20px;
@@ -1180,15 +1205,13 @@ body {
                         font-weight: bold;
                         margin-top: 15px;
                         line-height: 1.4;
-                        width: 80%;
-                        text-align: justify;
+                        text-align: left;
                         margin-left: 25px;
                     }
                     
                     .description2 {
                         font-family: 'Raleway', sans-serif;
                         font-size: 18px;
-                        width: 80%;
                         text-align: left;
                         line-height: 1.8;
                         margin-left: 0px;
@@ -1213,12 +1236,12 @@ body {
                             margin-top: 25px;
                             cursor: pointer;
                             width: 80%;
-                        }
-                        
-                        .btn1:hover {
-                            background: #9b9b9b;
-                            transition: 0.30s;
-                            transform: scale(1.05);
+
+                            &:hover {
+                                background: #9b9b9b;
+                                transition: 0.30s;
+                                transform: scale(1.05);
+                            }
                         }
                         
                         .btn2 {
@@ -1233,12 +1256,12 @@ body {
                             margin-top: 10px;
                             cursor: pointer;
                             width: 80%;
-                        }
-                        
-                        .btn2:hover {
-                            background: #5ec466;
-                            transition: 0.30s;
-                            transform: scale(1.05);
+
+                            &:hover {
+                                background: #5ec466;
+                                transition: 0.30s;
+                                transform: scale(1.05);
+                            }
                         }
                     }
                 }
@@ -1254,15 +1277,18 @@ body {
             .marketing3 {
                 display: block;
                 margin-top: 20px;
-                margin-left: 22.5px;
+                margin: 0 auto;
                 width: 100%;
     
                 .poster3 {
                     width: 400px;
-                    height: 400px;
+                    height: fit-content;
+                    width: 100%;
                 }
     
                 .text__poster3 {
+                    margin-left: 15px;
+                    width: 100%;
     
                     .titleP3 {
                         font-size: 45px;
@@ -1282,15 +1308,13 @@ body {
                         font-weight: bold;
                         margin-top: 15px;
                         line-height: 1.4;
-                        width: 80%;
-                        text-align: justify;
+                        text-align: left;
                         margin-left: 25px;
                     }
                     
                     .description3 {
                         font-family: 'Raleway', sans-serif;
                         font-size: 18px;
-                        width: 80%;
                         text-align: left;
                         line-height: 1.8;
                         margin-left: 0px;
@@ -1315,12 +1339,12 @@ body {
                             margin-top: 25px;
                             cursor: pointer;
                             width: 80%;
-                        }
-                        
-                        .btn1:hover {
-                            background: #9b9b9b;
-                            transition: 0.30s;
-                            transform: scale(1.05);
+
+                            &:hover {
+                                background: #9b9b9b;
+                                transition: 0.30s;
+                                transform: scale(1.05);
+                            }
                         }
                         
                         .btn2 {
@@ -1335,12 +1359,12 @@ body {
                             margin-top: 10px;
                             cursor: pointer;
                             width: 80%;
-                        }
-                        
-                        .btn2:hover {
-                            background: #5ec466;
-                            transition: 0.30s;
-                            transform: scale(1.05);
+
+                            &:hover {
+                                background: #5ec466;
+                                transition: 0.30s;
+                                transform: scale(1.05);
+                            }
                         }
                     }
                 }
@@ -1356,18 +1380,21 @@ body {
             .marketing4 {
                 display: block;
                 margin-top: 20px;
-                margin-left: 22.5px;
+                margin: 0 auto;
                 width: 100%;
     
                 .poster4 {
                     width: 400px;
-                    height: 400px;
+                    height: fit-content;
+                    width: 100%;
                 }
     
                 .text__poster4 {
+                    margin-left: 15px;
+                    width: 100%;
     
                     .titleP4 {
-                        font-size: 40px;
+                        font-size: 45px;
                         font-family: 'Raleway', sans-serif;
                         font-weight: bold;
                         margin-top: 20px;
@@ -1384,15 +1411,13 @@ body {
                         font-weight: bold;
                         margin-top: 15px;
                         line-height: 1.4;
-                        width: 80%;
-                        text-align: justify;
+                        text-align: left;
                         margin-left: 25px;
                     }
                     
                     .description4 {
                         font-family: 'Raleway', sans-serif;
                         font-size: 18px;
-                        width: 80%;
                         text-align: left;
                         line-height: 1.8;
                         margin-left: 0px;
@@ -1417,12 +1442,12 @@ body {
                             margin-top: 25px;
                             cursor: pointer;
                             width: 80%;
-                        }
-                        
-                        .btn1:hover {
-                            background: #9b9b9b;
-                            transition: 0.30s;
-                            transform: scale(1.05);
+
+                            &:hover {
+                                background: #9b9b9b;
+                                transition: 0.30s;
+                                transform: scale(1.05);
+                            }
                         }
                         
                         .btn2 {
@@ -1437,12 +1462,12 @@ body {
                             margin-top: 10px;
                             cursor: pointer;
                             width: 80%;
-                        }
-                        
-                        .btn2:hover {
-                            background: #5ec466;
-                            transition: 0.30s;
-                            transform: scale(1.05);
+
+                            &:hover {
+                                background: #5ec466;
+                                transition: 0.30s;
+                                transform: scale(1.05);
+                            }
                         }
                     }
                 }
@@ -1570,7 +1595,7 @@ body {
                     color: #7e1414;
                     margin-left: 45px;
                     margin-top: 35px;
-                    letter-spacing: 7.5px;
+                    letter-spacing: 3.5px;
                 }
             }
     
@@ -1633,7 +1658,6 @@ body {
                 background:rgb(255, 255, 255);
                 padding: 5px;
                 width: 100%;
-                height: 550px;
                 margin-top: -17.5px;
                 margin-bottom: 0px;
                 padding-bottom: 0px;
@@ -1644,7 +1668,7 @@ body {
                     color: #7e1414;
                     margin-left: 45px;
                     margin-top: 35px;
-                    letter-spacing: 7.5px;
+                    letter-spacing: 3.5px;
                 } 
                 
                 .whatsnext__title2 {
@@ -1661,124 +1685,115 @@ body {
     
                 .whatsnext__box {
                     display: grid;
-                    grid-template-columns: 1fr 1fr 1fr 1fr;
-                    grid-template-rows: 50vh 50vh;
+                    grid-template-columns: 1fr;
+                    grid-template-areas: 
+                        "show1"
+                        "show2"
+                        "show3"
+                        "show4"
+                        "show5";
+                    grid-template-rows: repeat(5,250px); 
                     grid-gap: 7px;
-                    top: -20px;
                     padding: 5px;
                     width: 95%;
                     position: relative;
                     margin: 0 auto;
+
+                    .show1, .show2, .show3, .show4, .show5 {
+                        height: 100%;
+                        font-size: 25px;
+                        padding-top: 20px;
+                        padding-left: 20px;
+                    }
     
                     .show1 {
                         background: url("../images/img2.jpg");
+                        grid-area: show1;
                         background-size: cover;
                         background-repeat: no-repeat;
                         border-radius: 10px;
-                        font-size: 15px;
-                        padding-left: 10px;
-                        padding-top: 10px;
-                        padding-right: 10px;
                         font-weight: bold;
                         font-family: 'Raleway', sans-serif;
                         color: white;
-                        height: 50%;
-                    }
-                    
-                    .show1:hover {
-                        transform: scale(1.025);
-                        transition: 0.5s;
-                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-                        cursor: pointer;
-                    }      
+
+                        &:hover {
+                            transform: scale(1.025);
+                            transition: 0.5s;
+                            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+                            cursor: pointer;
+                        }
+                    }     
                     
                     .show2 {
                         background: url("../images/img8.jpg");
+                        grid-area: show2;
                         background-size: cover;
                         background-repeat: no-repeat;
                         border-radius: 10px;
-                        font-size: 18px;
-                        padding-left: 10px;
-                        padding-top: 10px;
-                        padding-right: 10px;
                         font-weight: bold;
                         font-family: 'Raleway', sans-serif;
                         color: white;
-                        height: 50%;
-                    }
-                    
-                    .show2:hover {
-                        transform: scale(1.025);
-                        transition: 0.5s;
-                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-                        cursor: pointer;
+
+                        &:hover {
+                            transform: scale(1.025);
+                            transition: 0.5s;
+                            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+                            cursor: pointer;
+                        }
                     }
                     
                     .show3 {
                         background: url("../images/img3.jpg");
+                        grid-area: show3;
                         background-size: cover;
                         background-repeat: no-repeat;
                         border-radius: 10px;
-                        font-size: 15px;
-                        padding-left: 10px;
-                        padding-top: 10px;
-                        padding-right: 5px;
                         font-weight: bold;
                         font-family: 'Raleway', sans-serif;
                         color: white;
-                        height: 50%;
-                    }
-                    
-                    .show3:hover {
-                        transform: scale(1.025);
-                        transition: 0.5s;
-                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-                        cursor: pointer;
-                    }
+
+                        &:hover {
+                            transform: scale(1.025);
+                            transition: 0.5s;
+                            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+                            cursor: pointer;
+                        }
+                    }                     
                     
                     .show4 {
-                        grid-column: 1/3;
                         background: url("../images/img4.jpg");
+                        grid-area: show4;
                         background-size: cover;
                         background-repeat: no-repeat;
                         border-radius: 10px;
-                        font-size: 20px;
-                        padding-left: 15px;
-                        padding-top: 15px;
                         font-weight: bold;
                         font-family: 'Raleway', sans-serif;
                         color: rgb(0, 0, 0);
-                        height: 50%;
-                        margin-top: -150px;
-                    }
-                    
-                    .show4:hover {
-                        transform: scale(1.025);
-                        transition: 0.5s;
-                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-                        cursor: pointer;
+
+                        &:hover {
+                            transform: scale(1.025);
+                            transition: 0.5s;
+                            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+                            cursor: pointer;
+                        }
                     }
                     
                     .show5 {
                         background: url("../images/img5.jpg");
+                        grid-area: show5;
                         background-size: cover;
                         background-repeat: no-repeat;
                         border-radius: 10px;
-                        font-size: 20px;
-                        padding-left: 15px;
-                        padding-top: 15px;
                         font-weight: bold;
                         font-family: 'Raleway', sans-serif;
                         color: rgb(255, 255, 255);
-                        height: 50%;
-                        margin-top: -150px;
-                    }
-                    
-                    .show5:hover {
-                        transform: scale(1.025);
-                        transition: 0.5s;
-                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-                        cursor: pointer;
+
+                        &:hover {
+                            transform: scale(1.025);
+                            transition: 0.5s;
+                            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+                            cursor: pointer;
+                        }
                     }
                 }
                 
@@ -1788,9 +1803,8 @@ body {
             }
     
             footer {
-                position: relative;
                 justify-content: space-around;
-                background: #cacaca;
+                background: rgba(202, 202, 202, 0.5);
                 height: 200px;
                 display: flex;
                 align-items: center;
@@ -1799,7 +1813,7 @@ body {
                 color: #000000;
                 font-family: 'Hind Madurai', sans-serif;
                 gap: 30px;
-                top: 50px;
+                margin-top: 75px;
     
                 .navUl {
                     width: 500px;
