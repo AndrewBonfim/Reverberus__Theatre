@@ -83,19 +83,19 @@ body {
         
         @keyframes changeBackgroundImage {
             0% {
-                background-image: url("./images/couple2.jpg");
+                background-image: url("../images/couple2.jpg");
             }
         
             33% {
-                background-image: url("./images/couple.jpg");
+                background-image: url("../images/couple.jpg");
             }
         
             66% {
-                background-image: url("./images/couple3.jpg");
+                background-image: url("../images/couple3.jpg");
             }
         
             100% {
-                background-image: url("./images/couple2.jpg");
+                background-image: url("../images/couple2.jpg");
             }
         }
 
@@ -517,7 +517,7 @@ body {
             display: flex;
             color: #ffffff;
             width: 100%;
-            background: url("./images/dancers.jpg");
+            background: url("../images/dancers.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             padding: 2px;
@@ -730,7 +730,7 @@ body {
                 margin: 0 auto;
 
                 .show1 {
-                    background: url("./images/img2.jpg");
+                    background: url("../images/img2.jpg");
                     background-size: cover;
                     background-repeat: no-repeat;
                     border-radius: 10px;
@@ -750,7 +750,7 @@ body {
                 }      
                 
                 .show2 {
-                    background: url("./images/img7.jpg");
+                    background: url("../images/img7.jpg");
                     background-size: cover;
                     background-repeat: no-repeat;
                     grid-column: 2/4;
@@ -771,7 +771,7 @@ body {
                 }
                 
                 .show3 {
-                    background: url("./images/img3.jpg");
+                    background: url("../images/img3.jpg");
                     background-size: cover;
                     background-repeat: no-repeat;
                     border-radius: 10px;
@@ -792,7 +792,7 @@ body {
                 
                 .show4 {
                     grid-column: 1/3;
-                    background: url("./images/img4.jpg");
+                    background: url("../images/img4.jpg");
                     background-size: cover;
                     background-repeat: no-repeat;
                     border-radius: 10px;
@@ -812,7 +812,7 @@ body {
                 }
                 
                 .show5 {
-                    background: url("./images/img6.jpg");
+                    background: url("../images/img6.jpg");
                     background-size: cover;
                     background-repeat: no-repeat;
                     grid-column: 3/5;
@@ -1022,19 +1022,19 @@ body {
             
             @keyframes changeBackgroundImage {
                 0% {
-                    background-image: url("./images/couple2.jpg");
+                    background-image: url("../images/couple2.jpg");
                 }
             
                 33% {
-                    background-image: url("./images/couple.jpg");
+                    background-image: url("../images/couple.jpg");
                 }
             
                 66% {
-                    background-image: url("./images/couple3.jpg");
+                    background-image: url("../images/couple3.jpg");
                 }
             
                 100% {
-                    background-image: url("./images/couple2.jpg");
+                    background-image: url("../images/couple2.jpg");
                 }
             }
     
@@ -1451,7 +1451,7 @@ body {
             .dancers__text {
                 display: block;
                 width: 100%;
-                background: url("./images/dancers.jpg");
+                background: url("../images/dancers.jpg");
                 background-size: cover;
                 background-repeat: no-repeat;
                 padding: 5px;
@@ -1671,7 +1671,7 @@ body {
                     margin: 0 auto;
     
                     .show1 {
-                        background: url("./images/img2.jpg");
+                        background: url("../images/img2.jpg");
                         background-size: cover;
                         background-repeat: no-repeat;
                         border-radius: 10px;
@@ -1693,7 +1693,7 @@ body {
                     }      
                     
                     .show2 {
-                        background: url("./images/img7.jpg");
+                        background: url("../images/img7.jpg");
                         background-size: cover;
                         background-repeat: no-repeat;
                         border-radius: 10px;
@@ -1715,7 +1715,7 @@ body {
                     }
                     
                     .show3 {
-                        background: url("./images/img3.jpg");
+                        background: url("../images/img3.jpg");
                         background-size: cover;
                         background-repeat: no-repeat;
                         border-radius: 10px;
@@ -1738,7 +1738,7 @@ body {
                     
                     .show4 {
                         grid-column: 1/3;
-                        background: url("./images/img4.jpg");
+                        background: url("../images/img4.jpg");
                         background-size: cover;
                         background-repeat: no-repeat;
                         border-radius: 10px;
@@ -1760,7 +1760,7 @@ body {
                     }
                     
                     .show5 {
-                        background: url("./images/img6.jpg");
+                        background: url("../images/img6.jpg");
                         background-size: cover;
                         background-repeat: no-repeat;
                         border-radius: 10px;

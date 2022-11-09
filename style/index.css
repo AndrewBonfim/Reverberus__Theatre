@@ -61,13 +61,13 @@ body {
 
 @keyframes changeBackgroundImage {
   0% {
-    background-image: url("./images/couple2.jpg"); }
+    background-image: url("../images/couple2.jpg"); }
   33% {
-    background-image: url("./images/couple.jpg"); }
+    background-image: url("../images/couple.jpg"); }
   66% {
-    background-image: url("./images/couple3.jpg"); }
+    background-image: url("../images/couple3.jpg"); }
   100% {
-    background-image: url("./images/couple2.jpg"); } }
+    background-image: url("../images/couple2.jpg"); } }
     body main .whats__on {
       font-size: 70px;
       font-family: 'Hind Madurai', sans-serif;
@@ -382,7 +382,7 @@ body {
       display: flex;
       color: #ffffff;
       width: 100%;
-      background: url("./images/dancers.jpg");
+      background: url("../images/dancers.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       padding: 2px;
@@ -549,7 +549,7 @@ body {
         position: relative;
         margin: 0 auto; }
         body main .whatsnext__container .whatsnext__box .show1 {
-          background: url("./images/img2.jpg");
+          background: url("../images/img2.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           border-radius: 10px;
@@ -565,7 +565,7 @@ body {
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
           cursor: pointer; }
         body main .whatsnext__container .whatsnext__box .show2 {
-          background: url("./images/img7.jpg");
+          background: url("../images/img7.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           grid-column: 2/4;
@@ -582,7 +582,7 @@ body {
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
           cursor: pointer; }
         body main .whatsnext__container .whatsnext__box .show3 {
-          background: url("./images/img3.jpg");
+          background: url("../images/img3.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           border-radius: 10px;
@@ -599,7 +599,7 @@ body {
           cursor: pointer; }
         body main .whatsnext__container .whatsnext__box .show4 {
           grid-column: 1/3;
-          background: url("./images/img4.jpg");
+          background: url("../images/img4.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           border-radius: 10px;
@@ -615,7 +615,7 @@ body {
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
           cursor: pointer; }
         body main .whatsnext__container .whatsnext__box .show5 {
-          background: url("./images/img6.jpg");
+          background: url("../images/img6.jpg");
           background-size: cover;
           background-repeat: no-repeat;
           grid-column: 3/5;
@@ -759,13 +759,13 @@ body {
           text-shadow: 1px 6px 28px black; }
   @keyframes changeBackgroundImage {
     0% {
-      background-image: url("./images/couple2.jpg"); }
+      background-image: url("../images/couple2.jpg"); }
     33% {
-      background-image: url("./images/couple.jpg"); }
+      background-image: url("../images/couple.jpg"); }
     66% {
-      background-image: url("./images/couple3.jpg"); }
+      background-image: url("../images/couple3.jpg"); }
     100% {
-      background-image: url("./images/couple2.jpg"); } }
+      background-image: url("../images/couple2.jpg"); } }
       body main .whats__on {
         font-size: 40px;
         font-family: 'Hind Madurai', sans-serif;
@@ -1079,7 +1079,7 @@ body {
       body main .dancers__text {
         display: block;
         width: 100%;
-        background: url("./images/dancers.jpg");
+        background: url("../images/dancers.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         padding: 5px;
@@ -1251,7 +1251,7 @@ body {
           position: relative;
           margin: 0 auto; }
           body main .whatsnext__container .whatsnext__box .show1 {
-            background: url("./images/img2.jpg");
+            background: url("../images/img2.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 10px;
@@ -1269,7 +1269,7 @@ body {
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
             cursor: pointer; }
           body main .whatsnext__container .whatsnext__box .show2 {
-            background: url("./images/img7.jpg");
+            background: url("../images/img7.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 10px;
@@ -1287,7 +1287,7 @@ body {
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
             cursor: pointer; }
           body main .whatsnext__container .whatsnext__box .show3 {
-            background: url("./images/img3.jpg");
+            background: url("../images/img3.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 10px;
@@ -1306,7 +1306,7 @@ body {
             cursor: pointer; }
           body main .whatsnext__container .whatsnext__box .show4 {
             grid-column: 1/3;
-            background: url("./images/img4.jpg");
+            background: url("../images/img4.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 10px;
@@ -1324,7 +1324,7 @@ body {
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
             cursor: pointer; }
           body main .whatsnext__container .whatsnext__box .show5 {
-            background: url("./images/img6.jpg");
+            background: url("../images/img6.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 10px;
